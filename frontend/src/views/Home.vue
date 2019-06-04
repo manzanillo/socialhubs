@@ -26,18 +26,21 @@ export default {
         {
           title: "3. - 7. Juni",
           display: true,
+          room: 1,
           content:
             "Hallo Stefan, ich habe dich diese Woche mit Max und Philipp zusammengebracht. Setz dich doch an Platz 4 in Raum 1."
         },
         {
           title: "27. Mai - 1. Juni",
           display: true,
+          room: 2,
           content:
             "Hallo Stefan, ich habe dich diese Woche mit Sebastian und Max zusammengebracht. Setz dich doch an Platz 4 in Raum 2."
         },
         {
           title: "20. - 24. Mai",
           display: true,
+          room: 2,
           content:
             "Hallo Stefan, ich habe dich diese Woche mit Sebastian und Philipp zusammengebracht. Setz dich doch an Platz 4 in Raum 2."
         }
