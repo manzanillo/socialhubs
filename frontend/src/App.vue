@@ -1,23 +1,16 @@
 <template>
   <div id="app">
-    <md-toolbar class="md-toolbar-tools black">
-      <img alt="Vue logo" src="./assets/Header_Logo_White.svg">
-      <h3 class="md-title">SocialHubs</h3>
-    </md-toolbar>
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div id="nav">
+      <md-toolbar class="md-toolbar-tools black">
+        <img alt="hackbaylogo" src="./assets/Header_Logo_White.svg">
+        <h3 class="md-title">SocialHubs</h3>
+        <router-link to="/">Home</router-link>|
+        <router-link to="/about">About</router-link>
+      </md-toolbar>
+    </div>
+    <router-view/>
   </div>
 </template>
-
-<script>
-import HelloWorld from "./components/HelloWorld.vue";
-
-export default {
-  name: "app",
-  components: {
-    HelloWorld
-  }
-};
-</script>
 
 <style>
 #app {
@@ -34,5 +27,9 @@ export default {
 
 .black > img {
   width: 30%;
+}
+
+.black > a {
+  color: white;
 }
 </style>
