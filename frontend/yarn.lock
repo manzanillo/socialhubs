@@ -7272,6 +7272,11 @@ supports-color@^6.1.0:
   dependencies:
     has-flag "^3.0.0"
 
+svg-pan-zoom@^3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/svg-pan-zoom/-/svg-pan-zoom-3.6.0.tgz#31d8137d7e079e8f059effd85c7605b0567b6e4b"
+  integrity sha512-ZBEL2z/n/W2fLLFzn3NTQgd+7QEfbrKvKmu29U3qvMflmJgLaWkwKbOzWJYESFidTiGYMHkijAKmY6m64moyYg==
+
 svg-tags@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/svg-tags/-/svg-tags-1.0.0.tgz#58f71cee3bd519b59d4b2a843b6c7de64ac04764"
@@ -7818,6 +7823,13 @@ vue-style-loader@^4.1.0:
   dependencies:
     hash-sum "^1.0.2"
     loader-utils "^1.0.2"
+
+vue-svg-pan-zoom@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/vue-svg-pan-zoom/-/vue-svg-pan-zoom-1.0.1.tgz#6d97201b753a25ce27b8cfce1a5c606059c8e707"
+  integrity sha512-wAq2J28Px10lIy75kcRallAMmK2GETRTWuWfwgg/Wvsq9X3Gze1+4jI1nrYscsLjF3TEU/FVFhrMpCcuRTNTZw==
+  dependencies:
+    svg-pan-zoom "^3.6.0"
 
 vue-template-compiler@^2.6.10:
   version "2.6.10"

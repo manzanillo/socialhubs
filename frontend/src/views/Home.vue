@@ -8,7 +8,9 @@
       <md-card-content>{{entry.content}}</md-card-content>
 
       <md-card-actions>
-        <md-button class="md-raised md-primary">Lageplan</md-button>
+        <md-button class="md-raised md-primary">
+          <router-link to="/lageplan">Lageplan</router-link>
+        </md-button>
         <md-button class="md-dense">Verwerfen</md-button>
       </md-card-actions>
     </md-card>
@@ -22,22 +24,22 @@ export default {
     return {
       schedule: [
         {
-          title: "4. Juni",
+          title: "3. - 7. Juni",
           display: true,
           content:
-            "Hallo Stefan, ich habe dich heute mit Max und Philipp zusammengebracht. Setz dich doch an Platz 4 in Raum 1."
+            "Hallo Stefan, ich habe dich diese Woche mit Max und Philipp zusammengebracht. Setz dich doch an Platz 4 in Raum 1."
         },
         {
-          title: "3. Juni",
+          title: "27. Mai - 1. Juni",
           display: true,
           content:
-            "Hallo Stefan, ich habe dich heute mit Sebastian und Max zusammengebracht. Setz dich doch an Platz 4 in Raum 2."
+            "Hallo Stefan, ich habe dich diese Woche mit Sebastian und Max zusammengebracht. Setz dich doch an Platz 4 in Raum 2."
         },
         {
-          title: "2. Juni",
+          title: "20. - 24. Mai",
           display: true,
           content:
-            "Hallo Stefan, ich habe dich heute mit Sebastian und Philipp zusammengebracht. Setz dich doch an Platz 4 in Raum 2."
+            "Hallo Stefan, ich habe dich diese Woche mit Sebastian und Philipp zusammengebracht. Setz dich doch an Platz 4 in Raum 2."
         }
       ]
     };
