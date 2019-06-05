@@ -1,7 +1,7 @@
 <template>
   <div class="lageplan">
     <h1>Lageplan</h1>
-    <SvgPanZoom style="width:  100%; height: 300px">
+    <SvgPanZoom style="width:  100%; height: 450px">
       <svg
         width="100%"
         height="100%"
@@ -8255,7 +8255,7 @@
       </svg>
     </SvgPanZoom>
 
-    <md-button class="md-primary" style="margin-bottom: 100px; margin-top: 100px;">
+    <md-button class="md-primary" style="margin-bottom: 100px">
       <router-link to="/">Back</router-link>
     </md-button>
   </div>

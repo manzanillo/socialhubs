@@ -4,14 +4,28 @@
       <md-toolbar class="md-toolbar-tools black">
         <img alt="hackbaylogo" src="./assets/Header_Logo_White.svg">
         <h3 class="md-title">SocialHubs</h3>
+        <div class="md-toolbar-section-end">
+          <md-button class="md-icon-button" style="color: white;">
+            <md-icon>menu</md-icon>
+          </md-button>
+        </div>
       </md-toolbar>
     </div>
-    <router-view/>
-    <div class="phone-viewport">
-      <md-bottom-bar class="md-accent" md-sync-route>
-        <md-bottom-bar-item to="/" md-label="Home" md-icon="location_on"></md-bottom-bar-item>
-        <md-bottom-bar-item to="/about" md-label="Emit" md-icon="settings"></md-bottom-bar-item>
-      </md-bottom-bar>
+    <md-content>
+      <router-view/>
+    </md-content>
+    <div v-if="false">
+      <div class="phone-viewport">
+        <md-bottom-bar md-type="fixed" md-sync-route>
+          <md-bottom-bar-item to="/" md-label="Ich" md-icon="account_circle"></md-bottom-bar-item>
+          <md-bottom-bar-item to="/about" md-label="Arbeitsplatz" md-icon="location_on"></md-bottom-bar-item>
+          <md-bottom-bar-item
+            to="/components/bottom-bar/favorites"
+            md-label="Einstellungen"
+            md-icon="settings"
+          ></md-bottom-bar-item>
+        </md-bottom-bar>
+      </div>
     </div>
   </div>
 </template>
@@ -39,5 +53,9 @@
 
 .spacer {
   margin-top: 200px;
+}
+
+a {
+  color: black;
 }
 </style>
