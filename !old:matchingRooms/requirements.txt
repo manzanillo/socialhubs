@@ -1,0 +1,2 @@
+MyApp
+pyjokes>=0.5.0

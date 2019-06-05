@@ -1,0 +1,23 @@
+{
+  "name": "matchinRooms",
+  "version": "1.0.0",
+  "description": "Sample OpenWhisk Python serverless framework service.",
+  "main": "handler.js",
+  "keywords": [
+    "serverless",
+    "openwhisk"
+  ],
+  "devDependencies": {
+    "serverless": "^1.44.1",
+    "serverless-openwhisk": "^0.18.4"
+  },
+  "scripts": {
+    "deploy": "sls deploy",
+    "test": "serverless invoke --function joke",
+    "log": "serverless logs -f joke -t",
+    "docker-build": "docker build -t matching .",
+    "docker-tag": "docker tag matching  philschmi/matching",
+    "docker-push": "docker push philschmi/matching",
+    "docker": "npm run docker-build &&  npm run docker-tag && npm run docker-push"
+  }
+}
