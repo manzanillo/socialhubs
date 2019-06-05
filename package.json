@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "axios": "^0.19.0",
+    "vue-native-notification": "^1.0.5",
+    "vue-native-websocket": "^2.0.13"
+  }
+}
